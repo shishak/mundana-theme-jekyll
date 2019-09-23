@@ -7,6 +7,8 @@ ruby RUBY_VERSION
 #
 #     bundle exec jekyll serve
 #
+source "https://rubygems.org"
+gem 'github-pages'
 
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
